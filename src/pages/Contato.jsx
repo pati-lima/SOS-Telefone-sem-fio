@@ -27,7 +27,7 @@ export function Contato() {
     event.preventDefault()
 
     const messageListRef = ref(database, 'mensagens')
-    const newMessage = push(messageListRef)
+    const newMessageRef = push(messageListRef)
     set (newMessageRef,{
       nome:nome,
       email: email,
@@ -48,11 +48,15 @@ export function Contato() {
        />
       <input 
       className={styles.formInput}  
-      placeholder='Digite seu email' 
-       className={styles.formTextArea}  
-       placeholder='Digite sua mensagem'
-       onChange={handleInputValueMensagem}
-        />
+      placeholder='Digite seu email'
+      onChange={handleInputValueEmail} 
+       />
+      <textarea 
+      className={styles.formTextArea} 
+      placeholder="Digite sua mensagem"
+      onChange={handleInputValueMensagem}
+    />
+        
       <button 
       type="submit" 
       className={styles.formButton}>Enviar mensagem
