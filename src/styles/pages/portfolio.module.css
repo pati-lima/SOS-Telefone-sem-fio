@@ -1,0 +1,83 @@
+*{
+   margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto,sans-serif;
+}
+
+h2{
+   display:block;
+   font-size: 2em;
+   margin-block-start: 0.67em;
+   margin-block-end: 0.67em;
+   margin-inline-start: 0px;
+   margin-inline-end: 0px;
+   font-weight: bold;
+}
+
+p {
+   display: block;
+   margin-block-start: 1em;
+   margin-block-end: 1em;
+   margin-inline-start: 0px;
+   margin-inline-end: 0px;
+}
+
+.cardsContainer{
+   margin: 0 auto;
+    width: 80%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    font-size: 1rem;
+}
+
+.itensContainer{
+   width: 30%;
+   padding: 2rem;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   gap: 3rem;
+   font-size: 1.2rem;
+}
+
+.imgContainer {
+   width: 100%;
+   padding: 2rem;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   gap: 3rem;
+   font-size: 1.2rem;
+}
+
+.links{
+   background-color: #bd5ec7;
+   border: none;
+   color: #fff;
+   padding: 12px 32px;
+   text-align: center;
+   text-decoration: none;
+   font-size: 16px;
+   border-radius: 4px;
+   cursor: pointer;
+}
+
+
+
+@media(max-width: 765px) {
+   .cardsContainer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+ }
+
+
+ @media (max-width: 765px){
+  .itensContainer {
+    width: 320px;
+  }
+}

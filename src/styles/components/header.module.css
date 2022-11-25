@@ -15,7 +15,9 @@
 }
 
 .headerImage {
+  margin-top: 10px;
   width: 40%;
+  border-radius: 30%;
 }
 
 @media(max-width: 765px) {
