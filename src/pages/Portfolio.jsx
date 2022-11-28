@@ -2,6 +2,7 @@
 import { Header } from '../components/Header'
 import portfolioImg from '../assets/portfolio.svg'
 import styles from '../styles/pages/portfolio.module.css'
+import gitImg from '../assets/github.png'
 export function Portfolio () {
   return (
     <>
@@ -29,8 +30,14 @@ export function Portfolio () {
            Por aqui é possivel entrar em contato comigo pelas minhas redes sociais.
         </p>
         <a className={styles.links} href="https://mylinkspaty.netlify.app/" >Clique aqui!</a>
+        
         </div>
+       
       </div>
+      <div className={styles.git}> 
+          <h2 className={styles.titleGit}>  Outros projetos no meu GitHub  <br /><a className={styles.linksGit} href="https://github.com/pati-lima?tab=repositories"  >Veja mais! </a></h2>
+          
+        </div>
     </>
   )
 }
