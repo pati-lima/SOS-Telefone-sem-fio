@@ -2,14 +2,14 @@
 import { Header } from '../components/Header'
 import sobreImg from '../assets/sobre.svg'
 import styles from '../styles/pages/sobre.module.css'
-import patiImg from '../assets/pati.jpeg'
+import patiImg from '../assets/pati.png'
 
 export function Sobre() {
   return (
     <>
       <Header title="Sobre Mim" image={sobreImg} />
       <div className={styles.sobreContainer}>
-        {/* <img className={styles.bioImage} src={patiImg}/> */}
+        <img className={styles.bioImage} src={patiImg}/>
       <div className={styles.bioContainer}>
         <h2 className={styles.biotitle}>
             Patrícia Lima , prazer!

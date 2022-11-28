@@ -1,7 +1,4 @@
 
-/* ------------------ */
-
-
 .sobreContainer {
     display: flex;
     justify-content: center;
@@ -19,8 +16,7 @@
   }
   
   .bioImage {
-    width: 30%;
-    border-radius: 100%;
+    width: 40%;
   }
   
   .bioText {
@@ -33,14 +29,11 @@
     .sobreContainer {
       display: flex;
       flex-direction: column;
-      text-align: center;
-     
     }
-
-    
   
     .bioImage {
       width: 50%;
-      margin-top: 1em;
     }
   }
+
+
