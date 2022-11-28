@@ -1,3 +1,5 @@
+
+
 .titleinicio{
     
     padding:1rem;font-size:2rem;color:#474a51
@@ -10,7 +12,7 @@
 }
 
 .homeContainer{
-    
+    background-color: rgb(249, 227, 248);
     padding: 10rem;
     display: flex;
     justify-content: center;
@@ -22,7 +24,7 @@
 .cardContainer{
     
     padding:1rem;
-   
+   /* background-color:blue ; */
     font-size:1.2rem;
      text-align:center;
      color:#474a51

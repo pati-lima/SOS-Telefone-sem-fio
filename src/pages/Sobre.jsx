@@ -2,14 +2,14 @@
 import { Header } from '../components/Header'
 import sobreImg from '../assets/sobre.svg'
 import styles from '../styles/pages/sobre.module.css'
+import patiImg from '../assets/pati.jpeg'
 
 export function Sobre() {
   return (
     <>
       <Header title="Sobre Mim" image={sobreImg} />
       <div className={styles.sobreContainer}>
-        <img/>
-      </div>
+        {/* <img className={styles.bioImage} src={patiImg}/> */}
       <div className={styles.bioContainer}>
         <h2 className={styles.biotitle}>
             Patrícia Lima , prazer!
@@ -22,6 +22,9 @@ export function Sobre() {
         gestão e outros, para aproximar a humanidade do cumprimento de seus objetivos 
         no caminho para o excitante futuro tecnológico.
         </p>
+      </div>
+
+
       </div>
     </>
   )
