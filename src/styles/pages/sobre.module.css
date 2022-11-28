@@ -30,6 +30,10 @@
       display: flex;
       flex-direction: column;
     }
+
+    .bioContainer {
+        width: 20rem;
+      }
   
     .bioImage {
       width: 50%;
