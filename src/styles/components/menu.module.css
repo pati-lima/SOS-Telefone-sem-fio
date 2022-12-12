@@ -50,8 +50,8 @@ display: flex;
   .menuLink {
     text-decoration: none;
     color: #ffffff;
-    font-size: 1.7rem;
-    font-weight: 700;
+    font-size: 1.3rem;
+    font-weight: 400;
     font-family: 'Nunito+Sans';
     /* margin-bottom: 2em; */
   }
