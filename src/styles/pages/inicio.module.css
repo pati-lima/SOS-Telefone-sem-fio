@@ -10,10 +10,39 @@
     color: rgb(26, 4, 4);
     padding:1rem;font-size:2rem;
 }
+.cardContainertwo{
+    background-color: rgba(129, 142, 179, 0.39);
+    border-radius: 1em;
+    padding: 2em;
+    color: rgb(38, 41, 43);
+    font-weight: 550;
+}
+
+.titleiniciotwo{
+    color: rgb(26, 4, 4);
+    padding:1rem;font-size:2rem;
+}
 .titleinicio{
     
     padding:1rem;font-size:2rem;color:#474a51
 }
+
+
+
+.cardContainerfinal{
+    /* background-color: rgb(119, 119, 121); */
+   background-color: antiquewhite;
+    padding: 3%;
+    border-radius: 0.9;
+}
+
+.paragFinal{
+    font-size: large;
+    font-weight: 450;
+    font-style: italic;
+}
+
+
 
 *{
     margin: 0;

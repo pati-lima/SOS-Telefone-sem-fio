@@ -14,9 +14,9 @@ export function Inicio() {
       <Header title="Telefone sem Fio" image={celSemFioeImg} />
       <div className={styles.homeContainer}>
       <img className={styles.inicioImage} src={meninaImg}/>
-        <div className={styles.cardContainer}>
+        <div className={styles.cardContainertwo}>
         
-          <h2 className={styles.titleinicio}>A escuta real</h2>
+          <h2 className={styles.titleiniciotwo}>A escuta real</h2>
           <p>"Estamos neste mundo para sermos pessoas reais, não pessoas perfeitas"
 
             Em cada atendimento feito, nas diversas histórias que já tive a oportunidade de ouvir, percebi algo em comum: pessoas presas nas suas angústias a ponto de ver que a vida já não tinha o mínimo de sentido 
@@ -47,9 +47,9 @@ export function Inicio() {
       <div className={styles.homeContainer}>
         <img className={styles.inicioImage} src={menteColorImg}/>
        
-        <div className={styles.cardContainer}>
+        <div className={styles.cardContainerfinal}>
           
-          <p>"A palavra é como a arte bem transmitida em um quadro, ora, se tiver um guarda-chuva na tela, como posso dizer que é um avião? mas nem todos estão prontos para confrontar suas certezas" </p>
+          <p className={styles.paragFinal}>"A palavra é como a arte bem transmitida em um quadro, ora, se tiver um guarda-chuva na tela, como posso dizer que é um avião? mas nem todos estão prontos para confrontar suas certezas" </p>
          
         </div>
       </div>
