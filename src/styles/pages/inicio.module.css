@@ -117,12 +117,12 @@
     .homeContainerone {
       display: flex;
       flex-direction: column;
-      gap: 2rem;
+      
     }
     .homeContainertwo {
       display: flex;
       flex-direction: column;
-      gap: 2rem;
+      
     }
     .homeContainerthree {
       display: flex;
@@ -131,8 +131,8 @@
       
     }
     .inicioImage{
-        height: 23em;
-       
+        height: 35%;
+       width: 100%;
         
 
     }
