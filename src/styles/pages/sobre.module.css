@@ -24,10 +24,13 @@
     /* box-shadow: inset 5em 1em gold; */
     
     border-radius: 50%;
-    width: 40%;
+    width: 20%;
   }
   
   .bioText {
+    border-radius: 1.5em;
+    background-color:rgb(252, 248, 240) ;
+    margin-top: 2em;
     padding: 2rem;
     font-size: 1.2rem;
     color: #474a51

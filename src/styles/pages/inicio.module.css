@@ -1,4 +1,15 @@
+.cardContainerone{
+    background-color: rgb(219, 190, 146);
+    border-radius: 1em;
+    padding: 2em;
+    color: rgb(38, 43, 39);
+    font-weight: 550;
+}
 
+.titleinicioone{
+    color: rgb(26, 4, 4);
+    padding:1rem;font-size:2rem;
+}
 .titleinicio{
     
     padding:1rem;font-size:2rem;color:#474a51
