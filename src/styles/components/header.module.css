@@ -9,7 +9,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 4rem
+  gap:1.8rem
 }
 
 .headerTitle {
@@ -29,6 +29,16 @@
 
 @media(max-width: 765px) {
   .headerImage {
-    width: 100%;
+    width: 80%;
+  }
+
+  .headerTitle{
+    color: rgb(77, 75, 75);
+    font-size: 2.5rem;
+    font-weight: 300;
+  }
+  .headerContainer {
+    padding: 0.2rem;
+    background-color: rgba(252, 219, 189, 0.486);
   }
 }

@@ -8,7 +8,7 @@ export function Footer() {
       
     
         <p className ={styles.footerText}>
-        Copyright 2022 ©  Todos os direitos reservados - Criado por Patrícia Lima ❤️
+        Copyright 2022 ©  Todos os direitos reservados - Desenvolvido por Patrícia Lima ❤️
         </p>
     </footer>
      

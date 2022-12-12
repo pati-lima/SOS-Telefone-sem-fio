@@ -1,16 +1,24 @@
 .cardContainerone{
-    background-color: rgb(219, 190, 146);
+    box-shadow: inset 0 0 1em rgba(194, 194, 135, 0.247);
+    background-color: rgba(202, 180, 146, 0.418);
     border-radius: 1em;
     padding: 2em;
     color: rgb(38, 43, 39);
     font-weight: 550;
+    
+}
+.inicioImage{
+    /* box-shadow: inset 0 0 1em rgba(99, 99, 98, 0.247); */
+    border-radius: 100%;
 }
 
 .titleinicioone{
+   
     color: rgb(26, 4, 4);
     padding:1rem;font-size:2rem;
 }
 .cardContainertwo{
+    box-shadow: inset 0 0 1em rgba(211, 238, 248, 0.473);
     background-color: rgba(129, 142, 179, 0.39);
     border-radius: 1em;
     padding: 2em;
@@ -30,6 +38,7 @@
 
 
 .cardContainerfinal{
+    box-shadow: inset 0 0 1em rgba(99, 99, 98, 0.247);
     /* background-color: rgb(119, 119, 121); */
    background-color: antiquewhite;
     padding: 3%;
@@ -50,13 +59,27 @@
     font-family: Roboto,sans-serif;
 }
 
-.homeContainer{
-    background-color:rgba(240, 203, 134, 0.11);
-    padding: 10rem;
+.homeContainertwo{
+        
+    box-shadow: inset 0 0 1em rgba(99, 99, 98, 0.247);
+    background-color:rgba(147, 149, 151, 0);
+    padding: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 4rem;
+    gap: 1rem;
+    text-align: center;
+
+    
+}
+.homeContainerone{
+    /* box-shadow: inset 0 0 1em rgba(122, 122, 122, 0.349); */
+    background-color:rgba(253, 253, 253, 0.24);
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
     text-align: center;
 }
 
@@ -66,15 +89,74 @@
    /* background-color:blue ; */
     font-size:1.2rem;
      text-align:center;
-     color:#474a51
+     color:#414b63fd
+}
+.homeContainerthree{
+    box-shadow: inset 0 0 1em rgba(99, 99, 98, 0.247);
+    /* box-shadow: inset 0 0 1em rgba(34, 34, 32, 0.349); */
+    background-color:rgba(241, 241, 241, 0.24);
+    padding: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    text-align: center;
+    
+  
+}
+.cardContainerfinalthree{
+    background-color: rgba(255, 255, 255, 0.164);
+    padding: 1em;
+    
 }
 
 
+
+
 @media(max-width: 765px) {
-    .homeContainer {
+    .homeContainerone {
       display: flex;
       flex-direction: column;
       gap: 2rem;
+    }
+    .homeContainertwo {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+    .homeContainerthree {
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 5em;
+      
+    }
+    .inicioImage{
+        height: 23em;
+       
+        
+
+    }
+    .paragFinal{
+        display: flex;
+      
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     background-color: rgba(252, 252, 252, 0.082);
+    
+     padding: 1.8em;
+     margin-top: 0;
+      text-align: center;
+      
+    }
+    .paragFinalautor{
+        margin-bottom: 5em;
+        text-align: center;
+        font-weight: 400;
+        background-color: rgba(255, 255, 255, 0.164);
+     
+     
+     margin-top: 0;
     }
   }
 

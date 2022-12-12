@@ -42,9 +42,10 @@ export function Contato() {
   }
   return (
     <>
-      <Header title="Entre em contato" image={contatoImg}className={styles.imgcontato} />
+      <Header title image={contatoImg}className={styles.imgcontato} />
       <div >
         <form  className={styles.form} onSubmit={handleCreateMessage}>
+        <h3  className={styles.textform}>Chama no Contatinho!</h3>
           <input 
             onChange={handleInputValueNome} 
             placeholder="Como gostaria de ser chamado (a)?"

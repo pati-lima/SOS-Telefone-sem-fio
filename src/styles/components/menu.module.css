@@ -40,17 +40,19 @@ display: flex;
 @media(max-width: 765px) {
   .menuContainer {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     gap: 2rem;
+    
+    
 
   }
 
   .menuLink {
     text-decoration: none;
-    color: #2D2D2D;
-    font-size: 1.3rem;
+    color: #ffffff;
+    font-size: 1.7rem;
     font-weight: 700;
     font-family: 'Nunito+Sans';
-    margin-bottom: 1em;
+    /* margin-bottom: 2em; */
   }
 }
