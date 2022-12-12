@@ -2,28 +2,106 @@
 import { Header } from '../components/Header'
 import sobreImg from '../assets/sobre.svg'
 import styles from '../styles/pages/sobre.module.css'
-import patiImg from '../assets/pati.png'
+import esterImg from '../assets/ester.png'
 
 export function Sobre() {
   return (
     <>
       <Header title="Sobre Mim" image={sobreImg} />
       <div className={styles.sobreContainer}>
-        <img className={styles.bioImage} src={patiImg}/>
+        <img className={styles.bioImage} src={esterImg}/>
       <div className={styles.bioContainer}>
-        <h2 className={styles.biotitle}>
-            Patrícia Lima , prazer!
-        </h2>
-        <p className={styles.biotext}>
-        Apaixonada por aprendizado e tecnologias, atualmente estou cursando uma graduação em Análise e desenvolvimento 
-        de Sistemas, e participo de um Bootcamp de Front-End da Reprograma. Tenho um alto senso de trabalho 
-        em equipe contribuo na resolução de problemas de forma criativa, com pensamento crítico e comunicação eficiente.
-        Busco aprimorar minhas experiências em liderança , gerenciamento , desenvolvimento de software , 
-        gestão e outros, para aproximar a humanidade do cumprimento de seus objetivos 
-        no caminho para o excitante futuro tecnológico.
-        </p>
-      </div>
+      <h2 className={styles.bioTitle}>
+            Ester Ribeiro , prazer!
+          </h2>
+          <p className={styles.bioText}>
 
+
+            <li className={styles.sobreList}>
+              Quase psi.
+            </li>
+            <li className={styles.sobreList}>
+              Escrevi um livro.
+            </li>
+            <li className={styles.sobreList}>
+              Apaixonada por pets, séries e um bom vinho.
+            </li >
+            <li className={styles.sobreList}>
+              Super curiosa em conhecer histórias.
+
+            </li>
+            <li className={styles.sobreList}>
+              Não recuso um café
+            </li>
+
+          </p>
+
+
+        </div>
+
+      </div>
+      <div className={styles.sobreContainer}>
+        <img className={styles.bioImage} src={esterImg}/>
+      <div className={styles.bioContainer}>
+      <h2 className={styles.bioTitle}>
+            Ester Ribeiro , prazer!
+          </h2>
+          <p className={styles.bioText}>
+
+
+            <li className={styles.sobreList}>
+              Quase psi.
+            </li>
+            <li className={styles.sobreList}>
+              Escrevi um livro.
+            </li>
+            <li className={styles.sobreList}>
+              Apaixonada por pets, séries e um bom vinho.
+            </li >
+            <li className={styles.sobreList}>
+              Super curiosa em conhecer histórias.
+
+            </li>
+            <li className={styles.sobreList}>
+              Não recuso um café
+            </li>
+
+          </p>
+
+
+        </div>
+
+      </div>
+      <div className={styles.sobreContainer}>
+        <img className={styles.bioImage} src={esterImg}/>
+      <div className={styles.bioContainer}>
+      <h2 className={styles.bioTitle}>
+            Ester Ribeiro , prazer!
+          </h2>
+          <p className={styles.bioText}>
+
+
+            <li className={styles.sobreList}>
+              Quase psi.
+            </li>
+            <li className={styles.sobreList}>
+              Escrevi um livro.
+            </li>
+            <li className={styles.sobreList}>
+              Apaixonada por pets, séries e um bom vinho.
+            </li >
+            <li className={styles.sobreList}>
+              Super curiosa em conhecer histórias.
+
+            </li>
+            <li className={styles.sobreList}>
+              Não recuso um café
+            </li>
+
+          </p>
+
+
+        </div>
 
       </div>
     </>

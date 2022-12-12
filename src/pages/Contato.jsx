@@ -2,22 +2,22 @@
 import { useState, UseState } from 'react'
 
 import { Header} from '../components/Header'
-import contatoImg from '../assets/contato.svg'
+import contatoImg from '../assets/contato.png'
 import {database} from '../service/firebase'
 import { ref, push, set} from 'firebase/database'
 
 import styles from '../styles/pages/contato.module.css'
 export function Contato() {
   const [nome, setNome] = useState('')
-  const [email, setEmail] = useState('')
+  const [telefone, setTelefone] = useState('')
   const [mensagem, setMensagem] = useState('')
 
   function handleInputValueNome(event){
     setNome(event.target.value)
   }
   
-  function handleInputValueEmail(event){
-    setEmail(event.target.value)
+  function handleInputValueTelefone(event){
+    setTelefone(event.target.value)
   }
   function handleInputValueMensagem(event){
     setMensagem(event.target.value)
@@ -30,39 +30,43 @@ export function Contato() {
     const newMessageRef = push(messageListRef)
     set (newMessageRef,{
       nome:nome,
-      email: email,
+      telefone: telefone,
       texto: mensagem
 
     })
 
+    setMensagem('')
+    setNome('')
+    setTelefone('')
+
   }
-  return(
-   <>
-   <Header title = "Chama no contatinho" image = {contatoImg}/>
-   <div>
-    <form className={styles.form} onSubmit={handleCreateMessage} >
-      <input  
-      className={styles.formInput} 
-      placeholder='Digite seu nome'
-      onChange={handleInputValueNome}
-       />
-      <input 
-      className={styles.formInput}  
-      placeholder='Digite seu email'
-      onChange={handleInputValueEmail} 
-       />
-      <textarea 
-      className={styles.formTextArea} 
-      placeholder="Digite sua mensagem"
-      onChange={handleInputValueMensagem}
-    />
-        
-      <button 
-      type="submit" 
-      className={styles.formButton}>Enviar mensagem
-      </button>
-    </form>
-   </div>
-   </>
+  return (
+    <>
+      <Header title="Entre em contato" image={contatoImg}className={styles.imgcontato} />
+      <div >
+        <form  className={styles.form} onSubmit={handleCreateMessage}>
+          <input 
+            onChange={handleInputValueNome} 
+            placeholder="Como gostaria de ser chamado (a)?"
+            value={nome}
+            className={styles.formInput}
+          />
+          <input 
+            onChange={handleInputValueTelefone} 
+            placeholder="Digite um telefone pra contato!"
+            value={telefone}
+            className={styles.formInput}
+          />
+          <textarea 
+            onChange={handleInputValueMensagem} 
+            placeholder="Gostaria de Deixar alguma observação?"
+            value={mensagem}
+            className={styles.formTextArea}
+          />
+          <button className={styles.formButton} type="submit">Enviar mensagem</button>
+              <p className={styles.paragrafoContato}>Obrigada! Em breve entrarei em contato! </p>
+        </form>
+      </div>
+    </>
   )
 }

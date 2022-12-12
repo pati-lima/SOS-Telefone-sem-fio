@@ -1,7 +1,9 @@
 .headerContainer {
-  padding: 6rem;
-  /* background: #686AAC; */
-  background: linear-gradient(#B60F46,#D592FF);
+
+  padding: 0.8rem;
+
+  /* background-image: -webkit-linear-gradient(45deg, #69442b 0%, #c98a53 100%); */
+  background-color: rgba(250, 236, 223, 0.486);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10,14 +12,14 @@
 }
 
 .headerTitle {
-  color: #fff;
+  color: rgb(223, 162, 81);
   font-size: 4rem;
+  font-family: 'Nunito+Sans';
+  font-weight: 100;
 }
 
 .headerImage {
-  margin-top: 10px;
-  width: 40%;
-  border-radius: 30%;
+  width: 38%;
 }
 
 @media(max-width: 765px) {

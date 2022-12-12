@@ -1,26 +1,56 @@
 .menuContainer {
-  background: rgb(244, 225, 240);
-  display: flex;
+ 
+background-color: rgb(28 36 57);
+display: flex;
   gap: 10rem;
   align-items: center;
   justify-content: center;
   padding: 2rem;
+ 
+ 
 }
 
+
+
+
+
 .menuItem {
+  
   list-style: none;
 }
 
 .menuLink {
+
   text-decoration: none;
-  color: #ae5b90;
-  font-size: 1.5rem;
+  color: rgb(255 244 240);
+  font-size: 1.9rem;
+  font-weight: 100;
+  font-family: 'Nunito+Sans';
 }
+
+.menuItem:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+
+
 
 @media(max-width: 765px) {
   .menuContainer {
     display: flex;
     flex-direction: column;
     gap: 2rem;
+
+  }
+
+  .menuLink {
+    text-decoration: none;
+    color: #2D2D2D;
+    font-size: 1.3rem;
+    font-weight: 700;
+    font-family: 'Nunito+Sans';
+    margin-bottom: 1em;
   }
 }

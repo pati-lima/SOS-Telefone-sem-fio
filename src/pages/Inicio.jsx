@@ -1,31 +1,44 @@
 import { Header } from '../components/Header'
-import homeImg from '../assets/home.svg'
+import celSemFioeImg from '../assets/celsemfio.png'
 
 import styles from '../styles/pages/inicio.module.css'
 export function Inicio() {
   return (
     <>
-      <Header title="Meu site pessoal" image={homeImg} />
+      <Header title="Telefone sem Fio" image={celSemFioeImg} />
       <div className={styles.homeContainer}>
-        {/* <div className={styles.cardContainer}>
-          <img src="" alt="" />
-          <h2 className={styles.titleinicio}>Vida</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Totam incidunt ipsa non fugiat. Nemo aliquid, ullam quis tenetur animi
-             necessitatibus, exercitationem libero nam modi non sit impedit, deleniti deserunt unde?</p>
-        </div> */}
+       
         <div className={styles.cardContainer}>
         <img src="" alt="" />
-          <h2 className={styles.titleinicio}>Código ☕</h2>
-          <p>Aqui compartilho alguns projetinhos com o objetivo de aperfeiçoar meu aprendizado, e sempre na companhia de um bom café
-            para ter bastante energia na hora de codar! </p>
-        </div>
-        <div className={styles.cardContainer}>
-        <img src="" alt="" />
-          <h2 className={styles.titleinicio}>Contatinho 📞</h2>
-          <p>Entre em contato comigo . Seja para entrevistas de emprego como deva ou para trocarmos ideias sobre os estudos.</p>
+          <h2 className={styles.titleinicio}>Como Surgiu ☕</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia tempore, recusandae adipisci assumenda quaerat veritatis animi natus in officiis quisetur. </p>
         </div>
       </div>
+      <div className={styles.homeContainer}>
+       
+        <div className={styles.cardContainer}>
+        <img src="" alt="" />
+          <h2 className={styles.titleinicio}>Como Surgiu ☕</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia tempore, recusandae adipisci assumenda quaerat veritatis animi natus in officiis quisetur. </p>
+        </div>
+      </div>
+      <div className={styles.homeContainer}>
+       
+        <div className={styles.cardContainer}>
+        <img src="" alt="" />
+          <h2 className={styles.titleinicio}>Como Surgiu ☕</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia tempore, recusandae adipisci assumenda quaerat veritatis animi natus in officiis quisetur. </p>
+        </div>
+      </div>
+      <div className={styles.homeContainer}>
+       
+        <div className={styles.cardContainer}>
+        <img src="" alt="" />
+          <h2 className={styles.titleinicio}>Como Surgiu ☕</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia tempore, recusandae adipisci assumenda quaerat veritatis animi natus in officiis quisetur. </p>
+        </div>
+      </div>
+        
     </>
 
     

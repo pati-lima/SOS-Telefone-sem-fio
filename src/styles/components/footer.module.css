@@ -1,12 +1,21 @@
 .footerContainer {
-    padding: 2rem;
-    background: linear-gradient(#d492fd, #B60F46);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+  padding: 0.8rem;
   
-  .footerText {
-    color: #fff;
-    font-size: 1rem;
-  }
+  /* background-image: -webkit-linear-gradient(45deg, #0f0d0d 0%, 
+  #312c2c 100%); */
+  background-color: rgb(28 36 57);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  bottom: 0;
+      position: fixed;
+      width: 100%;
+      text-align: center;
+}
+
+.footerText {
+  color: #fff;
+  font-size: 0.8rem;
+  margin-bottom: 0.5em;
+}
