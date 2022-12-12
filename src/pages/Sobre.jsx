@@ -3,11 +3,13 @@ import { Header } from '../components/Header'
 import sobreImg from '../assets/sobre.svg'
 import styles from '../styles/pages/sobre.module.css'
 import esterImg from '../assets/ester.png'
+import blackGirlImg from '../assets/blackgirl.png'
+import escritoraImg from '../assets/escritora.jpg'
 
 export function Sobre() {
   return (
     <>
-      <Header title="Sobre Mim" image={sobreImg} />
+      <Header title ="Sobre Mim" image ={blackGirlImg} />
       <div className={styles.sobreContainer}>
         <img className={styles.bioImage} src={esterImg}/>
       <div className={styles.bioContainer}>
@@ -41,7 +43,7 @@ export function Sobre() {
 
       </div>
       <div className={styles.sobreContainer}>
-        <img className={styles.bioImage} src={esterImg}/>
+        <img className={styles.bioImage} src={escritoraImg}/>
       <div className={styles.bioContainer}>
       <h2 className={styles.bioTitle}>
             Ester Ribeiro , prazer!

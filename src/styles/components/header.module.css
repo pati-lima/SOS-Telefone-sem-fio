@@ -1,9 +1,10 @@
 .headerContainer {
-
-  padding: 0.8rem;
+  padding: 0.5rem;
 
   /* background-image: -webkit-linear-gradient(45deg, #69442b 0%, #c98a53 100%); */
   background-color: rgba(250, 236, 223, 0.486);
+
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -12,14 +13,18 @@
 }
 
 .headerTitle {
-  color: rgb(223, 162, 81);
-  font-size: 4rem;
+
+  margin-top: 1em;
+  color: rgb(87, 87, 87);
+  font-size: 3.5rem;
   font-family: 'Nunito+Sans';
   font-weight: 100;
+  
 }
 
 .headerImage {
-  width: 38%;
+  width: 35%;
+  
 }
 
 @media(max-width: 765px) {
