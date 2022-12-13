@@ -96,6 +96,8 @@
   color: rgba(27, 23, 53, 0.973);
 font-weight: 700;
 font-size: 3em;
+padding: 0.5em;
+/* margin-bottom: 8em; */
 
 
 }
@@ -115,7 +117,8 @@ font-size: 3em;
   gap: 1em;
   margin-left: 1em;
   height: 25px;
-  margin-bottom: 5em;
+  
+  margin-bottom: 8em;
   
 
 }
