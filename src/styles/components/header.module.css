@@ -24,12 +24,15 @@
 
 .headerImage {
   width: 22%;
-  
+  /* box-shadow: inset 0 0 1em gold; */
+ 
+ 
 }
 
 @media(max-width: 765px) {
   .headerImage {
     width: 80%;
+    box-shadow: 10px 5px 5px rgba(141, 137, 131, 0.24);
   }
 
   .headerTitle{

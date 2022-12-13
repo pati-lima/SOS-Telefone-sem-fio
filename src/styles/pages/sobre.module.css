@@ -5,16 +5,24 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 3em;
+    background-color: rgba(218, 186, 99, 0.205);
+    gap: 0.3em;
+   
   }
   
   .bioTitle {
+    margin-top: 2em;
+   
     font-size: 3rem;
     padding: 2rem;
     color: #474a51
   }
   
   .bioContainer {
+  margin-bottom: 2em;
     width: 30rem;
+    
   }
   
   .bioImage {
@@ -22,12 +30,15 @@
     /* box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); */
     /* box-shadow: 3px 3px red, -1em 0 0.4em olive; */
     /* box-shadow: inset 5em 1em gold; */
+    /* box-shadow: inset 3em 1em rgba(34, 61, 129, 0.774); */
     
     border-radius: 50%;
-    width: 17%;
+    width: 27%;
+    
   }
   
   .bioText {
+    
     border-radius: 1.5em;
     background-color:rgb(252, 248, 240) ;
     margin-top: 2em;
@@ -51,7 +62,9 @@
       }
   
     .bioImage {
-      width: 80%;
+      margin-top: 3em;
+      width: 50%;
+      box-shadow: 2px 2px 2px 1px rgba(11, 3, 82, 0);
     }
 
     .bioTitle{

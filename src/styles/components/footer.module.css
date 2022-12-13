@@ -19,3 +19,14 @@
   font-size: 0.8rem;
   margin-bottom: 0.5em;
 }
+
+.iconesRedesSociais{
+  color: #fff;
+  height:  10em;
+
+}
+.redessociais{
+  display: flex;
+  gap: 1em;
+  margin-left: 1em;
+}

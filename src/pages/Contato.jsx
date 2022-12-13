@@ -5,6 +5,9 @@ import { Header} from '../components/Header'
 import contatoImg from '../assets/contato.png'
 import {database} from '../service/firebase'
 import { ref, push, set} from 'firebase/database'
+import { SiInstagram  } from 'react-icons/si'
+
+import { SiLinkedin }  from 'react-icons/si'
 
 import styles from '../styles/pages/contato.module.css'
 export function Contato() {
@@ -65,7 +68,13 @@ export function Contato() {
             className={styles.formTextArea}
           />
           <button className={styles.formButton} type="submit">Enviar mensagem</button>
-              <p className={styles.paragrafoContato}>Obrigada! Em breve entrarei em contato! </p>
+              <p className={styles.paragrafoContato}>Conecte-te comigo nas minhas redes! </p>
+              
+        <div className ={styles.redessociais}>
+        <a className={styles.iconesRedesSociais} href  =  "https://www.instagram.com/psi_estercosta/ " ><SiInstagram></SiInstagram></a>
+        <a className={styles.iconesRedesSociais} href ="https://www.linkedin.com/in/ester-ribeiro-da-costa-a5a094200/">< SiLinkedin></SiLinkedin></a>
+        </div>
+       
         </form>
       </div>
     </>

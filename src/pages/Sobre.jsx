@@ -12,10 +12,12 @@ export function Sobre() {
     <>
       <Header title="Sobre Mim" image={blackGirlImg} />
       <div className={styles.sobreContainer}>
-        <img className={styles.bioImage} src={esterImg} />
+          <img className={styles.bioImage} src={esterImg} />
         <div className={styles.bioContainer}>
+        
           <h2 className={styles.bioTitle}>
             Ester Ribeiro , prazer!
+        
           </h2>
           <p className={styles.bioText}>Olá, é um prazer te ter por aqui.
             Já que compartilharemos algumas confidenciais, deixe me começar. Sou nova no mundo dos escritores, apaixonada por pets, séries orientais e vinho! A arte, a música e histórias me deixam intrigada e sou uma amante fiel do café. Prefiro
@@ -26,38 +28,7 @@ export function Sobre() {
         </div>
 
       </div>
-      {/* <div className={styles.sobreContainer}>
-        <img className={styles.bioImage} src={escritoraImg} />
-        <div className={styles.bioContainer}>
-          <h2 className={styles.bioTitle}>
-            Ester Ribeiro , prazer!
-          </h2>
-          <p className={styles.bioText}>
-
-
-            <li className={styles.sobreList}>
-              Quase psi.
-            </li>
-            <li className={styles.sobreList}>
-              Escrevi um livro.
-            </li>
-            <li className={styles.sobreList}>
-              Apaixonada por pets, séries e um bom vinho.
-            </li >
-            <li className={styles.sobreList}>
-              Super curiosa em conhecer histórias.
-
-            </li>
-            <li className={styles.sobreList}>
-              Não recuso um café
-            </li>
-
-          </p>
-
-
-        </div>
-
-      </div> */}
+     
       <div className={styles.sobreContainer}>
         <img className={styles.bioImage} src={livroEster} />
         <div className={styles.bioContainer}>

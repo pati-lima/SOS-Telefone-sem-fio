@@ -91,7 +91,29 @@
         transform: scale(0.9);
 }
 
+.iconesRedesSociais{
+  color: rgba(27, 23, 53, 0.973);
+font-weight: 700;
+font-size: 3em;
+}
 
+.iconesRedesSociais:hover{
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  color: rgb(218, 150, 62);
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+}
+.redessociais{
+  margin-top: 1em;
+  display: flex;
+  gap: 1em;
+  margin-left: 1em;
+  height: 25px;
+}
+  
 
 
 .paragrafoContato{
