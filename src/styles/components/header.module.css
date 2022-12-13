@@ -32,7 +32,9 @@
 @media(max-width: 765px) {
   .headerImage {
     width: 80%;
-    box-shadow: 10px 5px 5px rgba(141, 137, 131, 0.24);
+    border-radius: 2%;
+    /* box-shadow: 10px 5px 5px rgba(141, 137, 131, 0.24); */
+    box-shadow: 3px 3px rgb(235, 224, 206), -1em 0 0.4em rgba(255, 237, 196, 0.256);
   }
 
   .headerTitle{
@@ -41,6 +43,7 @@
     font-weight: 300;
   }
   .headerContainer {
+    
     padding: 0.2rem;
     background-color: rgba(252, 219, 189, 0.486);
   }
