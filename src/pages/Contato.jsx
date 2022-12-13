@@ -46,7 +46,7 @@ export function Contato() {
   return (
     <>
       <Header title image={contatoImg}className={styles.imgcontato} />
-      <div >
+      <div className={styles.containerForm}>
         <form  className={styles.form} onSubmit={handleCreateMessage}>
         <h3  className={styles.textform}>Chama no Contatinho!</h3>
           <input 
@@ -69,13 +69,13 @@ export function Contato() {
           />
           <button className={styles.formButton} type="submit">Enviar mensagem</button>
               <p className={styles.paragrafoContato}>Conecte-te comigo nas minhas redes! </p>
-              
-       
         <div className ={styles.redessociais}>
         <a className={styles.iconesRedesSociais} href  =  "https://www.instagram.com/psi_estercosta/ " ><SiInstagram></SiInstagram></a>
         <a className={styles.iconesRedesSociais} href ="https://www.linkedin.com/in/ester-ribeiro-da-costa-a5a094200/">< SiLinkedin></SiLinkedin></a>
         </div>
-        <div></div>
+              
+       
+        
         </form>
       </div>
     </>

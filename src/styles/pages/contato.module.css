@@ -97,7 +97,8 @@
   color: rgba(27, 23, 53, 0.973);
 font-weight: 700;
 font-size: 3em;
-padding: 0.5em;
+/* padding: 0.5em; */
+
 /* margin-bottom: 8em; */
 
 
@@ -122,6 +123,10 @@ padding: 0.5em;
   margin-bottom: 8em;
   
 
+}
+
+.containerForm{
+  padding-bottom: 2em;
 }
   
 
