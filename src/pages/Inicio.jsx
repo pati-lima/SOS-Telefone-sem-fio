@@ -2,8 +2,7 @@ import { Header } from '../components/Header'
 import celSemFioeImg from '../assets/celsemfio.png'
 import meninaImg from '../assets/meninatriste.png'
 import antesedepoisImg from '../assets/tristefeliz.png'
-import maosImg from '../assets/maoscoracao.jpg'
-import regandoImg from '../assets/regandomente.jpg'
+
 import menteColorImg from '../assets/mentecolorida.png'
 import menteLinhaImg from '../assets/mentelinha.png'
 
@@ -36,14 +35,7 @@ export function Inicio() {
         </div>
         <img className={styles.inicioImage} src={antesedepoisImg} />
       </div>
-      {/* <div className={styles.homeContainer}>
-       
-        <div className={styles.cardContainer}>
-          <h2 className={styles.titleinicio}>Antes , Durante e Depois</h2>
-        <img className={styles.inicioImage} src={antesedepoisImg}/>
-          <p>O projeto telefone sem fio nasce do desejo de acolher no momento de maior urgência emocional ou solidão, mas também  para ser sua amiga de aluguel. Estar aqui quando você sentir que ninguém mais está! </p>
-        </div>
-      </div> */}
+      
       <div className={styles.homeContainerthree}>
 
         <img className={styles.inicioImage} src={menteLinhaImg} />

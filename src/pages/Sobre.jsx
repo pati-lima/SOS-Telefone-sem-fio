@@ -1,10 +1,10 @@
 
 import { Header } from '../components/Header'
-import sobreImg from '../assets/sobre.svg'
+
 import styles from '../styles/pages/sobre.module.css'
 import esterImg from '../assets/ester.png'
 import blackGirlImg from '../assets/blackgirl.png'
-import escritoraImg from '../assets/escritora.jpg'
+
 import livroEster from '../assets/livroester.png'
 
 export function Sobre() {

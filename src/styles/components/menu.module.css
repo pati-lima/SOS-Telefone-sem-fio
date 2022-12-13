@@ -1,21 +1,18 @@
 .menuContainer {
- 
-background-color: rgb(28 36 57);
-display: flex;
+
+  background-color: rgb(28 36 57);
+  display: flex;
   gap: 10rem;
   align-items: center;
   justify-content: center;
   padding: 2rem;
- 
- 
+
+
 }
 
 
-
-
-
 .menuItem {
-  
+
   list-style: none;
 }
 
@@ -42,8 +39,8 @@ display: flex;
     display: flex;
     /* flex-direction: column; */
     gap: 2rem;
-    
-    
+
+
 
   }
 

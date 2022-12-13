@@ -1,22 +1,18 @@
 .formContainer {
   width: 100%;
-  
+
 }
 
-.textform{
+.textform {
   margin-top: 2em;
- margin-bottom: 1em;
+  margin-bottom: 1em;
   color: rgb(87, 87, 87);
   font-size: 2.2rem;
   font-family: 'Nunito+Sans';
-    font-weight: 100;
+  font-weight: 100;
 }
 
-/* .contatoContainer{
-  padding: 5rem;
-  background-image: url(https://69734.cdn.simplo7.net/static/69734/sku/tecido-tricoline-tecido-textura-vrosa-vinho-soft-100-algodao-des-1292-cor-210-v003-21-1669672626835.jpg);
-  width: 100%;
-} */
+
 
 .form {
   margin: 0 auto;
@@ -50,7 +46,7 @@
 
 
 .formButton {
- 
+
   /* background-image: -webkit-linear-gradient(45deg, #947d6e 0%, #c98a53 100%); */
   background-color: rgb(28 36 57);
   border: none;
@@ -74,37 +70,37 @@
   -webkit-transform: scale(0.9);
   -ms-transform: scale(0.9);
   transform: scale(0.9);
-  
+
 }
-.contatoImage{
+
+.contatoImage {
   border-radius: 20%;
   height: 12em;
   align-items: center;
   margin-bottom: 1em;
-  
-  
-  
+
+
+
 }
 
-.contatoImage:hover
-{
-        -webkit-transform: scale(0.9);
-        -ms-transform: scale(0.9);
-        transform: scale(0.9);
+.contatoImage:hover {
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
 }
 
-.iconesRedesSociais{
+.iconesRedesSociais {
   color: rgba(27, 23, 53, 0.973);
-font-weight: 700;
-font-size: 3em;
-/* padding: 0.5em; */
+  font-weight: 700;
+  font-size: 3em;
+  /* padding: 0.5em; */
 
-/* margin-bottom: 8em; */
+  /* margin-bottom: 8em; */
 
 
 }
 
-.iconesRedesSociais:hover{
+.iconesRedesSociais:hover {
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
@@ -113,25 +109,26 @@ font-size: 3em;
   -ms-transform: scale(0.9);
   transform: scale(0.9);
 }
-.redessociais{
+
+.redessociais {
   margin-top: 1em;
   display: flex;
   gap: 1em;
   margin-left: 1em;
   height: 2em;
-  
+
   margin-bottom: 8em;
-  
+
 
 }
 
-.containerForm{
+.containerForm {
   padding-bottom: 2em;
 }
-  
 
 
-.paragrafoContato{
+
+.paragrafoContato {
   color: rgb(43, 43, 43);
   font-weight: 380;
   margin-top: 1em;
@@ -140,10 +137,10 @@ font-size: 3em;
   font-family: 'Nunito+Sans';
 }
 
-@media(max-width: 765px){
+@media(max-width: 765px) {
   .form {
     margin: 0 auto;
-    
+
     width: 80%;
     height: 600px;
     display: flex;
@@ -151,6 +148,7 @@ font-size: 3em;
     align-items: center;
     flex-direction: column;
   }
+
   /* .iconesRedesSociais{
     color: rgba(27, 23, 53, 0.973);
   font-weight: 700;
@@ -158,14 +156,13 @@ font-size: 3em;
   
   } */
 
-  .redessociais{
+  .redessociais {
     margin-top: 2em;
     display: flex;
     gap: 1em;
-    
+
     height: 25px;
     margin-bottom: 7em;
   }
 
 }
-
