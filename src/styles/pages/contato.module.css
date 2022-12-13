@@ -113,7 +113,7 @@ font-size: 3em;
   gap: 1em;
   margin-left: 1em;
   height: 25px;
-  margin-bottom: 4em;
+  margin-bottom: 5em;
 }
   
 
@@ -137,6 +137,21 @@ font-size: 3em;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+  }
+  /* .iconesRedesSociais{
+    color: rgba(27, 23, 53, 0.973);
+  font-weight: 700;
+  font-size: 3em;
+  
+  } */
+
+  .redessociais{
+    margin-top: 2em;
+    display: flex;
+    gap: 1em;
+    
+    height: 25px;
+    margin-bottom: 7em;
   }
 
 }
