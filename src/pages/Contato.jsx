@@ -70,11 +70,11 @@ export function Contato() {
           <button className={styles.formButton} type="submit">Enviar mensagem</button>
               <p className={styles.paragrafoContato}>Conecte-te comigo nas minhas redes! </p>
               
+       
         <div className ={styles.redessociais}>
         <a className={styles.iconesRedesSociais} href  =  "https://www.instagram.com/psi_estercosta/ " ><SiInstagram></SiInstagram></a>
         <a className={styles.iconesRedesSociais} href ="https://www.linkedin.com/in/ester-ribeiro-da-costa-a5a094200/">< SiLinkedin></SiLinkedin></a>
         </div>
-       
         </form>
       </div>
     </>
