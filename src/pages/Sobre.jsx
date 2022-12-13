@@ -10,9 +10,9 @@ import livroEster from '../assets/livroester.png'
 export function Sobre() {
   return (
     <>
-      <Header title="Sobre Mim" image={blackGirlImg} />
-      <div className={styles.sobreContainer}>
-          <img className={styles.bioImage} src={esterImg} />
+      <Header title="Sobre Mim" image={esterImg} />
+      <div className={styles.sobreContainerone}>
+          <img className={styles.bioImageone} src={blackGirlImg} />
         <div className={styles.bioContainer}>
         
           <h2 className={styles.bioTitle}>
