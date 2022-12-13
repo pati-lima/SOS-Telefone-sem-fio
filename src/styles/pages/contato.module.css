@@ -95,6 +95,7 @@
   color: rgba(27, 23, 53, 0.973);
 font-weight: 700;
 font-size: 3em;
+
 }
 
 .iconesRedesSociais:hover{
@@ -112,6 +113,7 @@ font-size: 3em;
   gap: 1em;
   margin-left: 1em;
   height: 25px;
+  margin-bottom: 4em;
 }
   
 
