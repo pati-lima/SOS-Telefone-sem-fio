@@ -11,7 +11,7 @@ import styles from '../styles/pages/inicio.module.css'
 export function Inicio() {
   return (
     <>
-      <Header title="Telefone sem Fio" image={celSemFioeImg} />
+      <Header title=" SOS - Telefone sem Fio" image={celSemFioeImg} />
       <div className={styles.homeContainertwo}>
         <img className={styles.inicioImage} src={meninaImg} />
         <div className={styles.cardContainertwo}>
@@ -27,7 +27,7 @@ export function Inicio() {
       <div className={styles.homeContainerone}>
         <div className={styles.cardContainerone}>
           <h2 className={styles.titleinicioone}>De onde veio a Ideia</h2>
-          <p>O projeto telefone sem fio nasce do desejo de acolher no momento de maior
+          <p>O projeto SOS - Telefone sem fio nasce do desejo de acolher no momento de maior
             urgência emocional ou solidão, mas também para ser sua amiga de aluguel. Estar aqui
             quando você sentir que ninguém mais está! <br />
             Carrega esse nome graças a brincadeira antiga com duas latas e um fio! Assim como o fio do telefone sem fio, espero estejamos ligados mesmo distantes!
