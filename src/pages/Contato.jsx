@@ -6,10 +6,17 @@ import contatoImg from '../assets/contato.png'
 import {database} from '../service/firebase'
 import { ref, push, set} from 'firebase/database'
 import { SiInstagram  } from 'react-icons/si'
-
 import { SiLinkedin }  from 'react-icons/si'
 
+
 import styles from '../styles/pages/contato.module.css'
+import  {  ToastContainer ,  toast  }  from  'react-toastify' ; 
+  import  'react-toastify/dist/ReactToastify.css' ;
+
+const notify = () =>{
+  toast("Recebi sua mensagem, em breve entrarei em contato!")
+}
+
 export function Contato() {
   const [nome, setNome] = useState('')
   const [telefone, setTelefone] = useState('')
@@ -67,7 +74,8 @@ export function Contato() {
             value={mensagem}
             className={styles.formTextArea}
           />
-          <button className={styles.formButton} type="submit">Enviar mensagem</button>
+          <button onClick={notify} className={styles.formButton} type="submit">Enviar mensagem</button>
+            <ToastContainer /> 
               <p className={styles.paragrafoContato}>Conecte-te comigo nas minhas redes! </p>
         <div className ={styles.redessociais}>
         <a  className={styles.iconesRedesSociais}  href   =  "https://www.instagram.com/psi_estercosta/ " ><SiInstagram></SiInstagram></a>
